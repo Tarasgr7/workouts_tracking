@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# alembic
+alembic/versions/*.pyc
+db/migrations/versions/*.pyc
+db/migrations/__pycache__/
+db/migrations/versions/__pycache__/
+
+# SQLite (якщо залишився)
+*.sqlite3
+
+# Logs
+*.log
+*.out
+
+# Docker
+*.pid
+*.tar
+*.sock
+docker-compose.override.yml
+**/__docker_build_cache__/
+**/.docker/
+
+# MyPy / Pyright / Coverage / Testing
+.mypy_cache/
+.pyright/
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Node (якщо є фронтенд)
+node_modules/
+npm-debug.log
+yarn-error.log
+*.tsbuildinfo
+
+# VSCode Devcontainers
+.devcontainer/
+
+# Mac/Linux/Windows OS
+.DS_Store
+Thumbs.db
