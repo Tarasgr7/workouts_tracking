@@ -24,6 +24,7 @@ db/migrations/versions/__pycache__/
 
 # SQLite (якщо залишився)
 *.sqlite3
+*.db
 
 # Logs
 *.log
